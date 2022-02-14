@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=PT+Serif:ital@1&family=Permanent+Marker&family=Satisfy&display=swap');
+
+body {
+  margin: 0;
+  background: #000;
+}
+
+section {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.info {
+  box-sizing: border-box;
+  overflow-y: scroll;
+  position: fixed;
+  left: 0;
+  width: 33vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f4f4f;
+  gap: 3px;
+}
+
+.info::-webkit-scrollbar {
+  display: none;
+}
+
+nav {
+  position: fixed;
+  top: 25px;
+  left: 150px;
+  box-sizing: border-box;
+  }
+
+.atualizar {
+   background: rgba(0, 0, 0, 0.363);
+   color: #00FA9A;
+   font-family: sans-serif;
+   padding: 10px 10px;
+   border-radius: 10px;
+   letter-spacing: 2px; /* Separa letras */
+   font-size: 15px;
+   text-decoration: none;
+}
+
+.logo {
+  height: 6rem;
+  padding: 0;
+}
+
+.titulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #00FA9A;
+  text-align: center;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 20px;
+  margin: 0;
+}
+
+.subtitulo {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: monospace;
+  color: #48D1CC;
+}
+
+.caixa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa-titulo {
+  font-family: Itim;
+  font-size: 25px;
+  color: #FFFAFA;
+  font-weight: 400;
+  text-align: center;
+}
+
+.selecao-data {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px;
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 5px;
+  }
+
+input, #data {
+  background: #13293d;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px #000;
+  color: #fff;
+  font-size: 15px;
+}
+
+.descricao {
+  overflow-y: scroll;
+  padding: 7px;
+  font-family: Arial, Helvetica, sans-serif; 
+  color: #fff;
+  text-align: center;
+}
+
+.descricao::-webkit-scrollbar {
+  width: 8px; 
+  height: 8px; 
+}
+
+.descricao::-webkit-scrollbar-thumb {
+    background: #9a8679;
+}
+
+.media {
+    position: fixed;
+    right: 0;
+    z-index: -1;
+}
+
+.imagem {
+  height: auto;
+}
+
+
+.imagem, .video {
+  position: inherit;
+  width: 100%;
+  right: 0;
+}
+
+.video {
+    height: 100%;
+    width: 67%;
+}
+
+.copyright {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.493);
+  color: #fff;
+  height: 20px;
+  width: 100px;
+  border-radius: 5px;
+  text-align: center;
+  top: 5px;
+  right: 5px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 10px 10px;
+}
+
+button {
+  background: #13293d;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px #000;
+  width: 60px;
+  font-family: serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #00FA9A;
+}
+
+.oculto {
+    display: none;
+}
